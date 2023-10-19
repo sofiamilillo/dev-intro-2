@@ -3,4 +3,4 @@
 Introduction to Software Development by Java snippets 
 
 Prerequisites
-- JShell (from JDK 17)
+- JShell (from JDK 9+)
