@@ -1,6 +1,6 @@
 # dev-intro
 
-Introduction to Software Development by Java snippets 
+Introduction to Software Development by Java snippets and Python 3 scripts
 
-Prerequisites
-- JShell (from JDK 17)
+Java Prerequisite
+- JShell _(for JDK 9+, tested up to 21)_
