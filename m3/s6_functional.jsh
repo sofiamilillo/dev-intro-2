@@ -28,7 +28,9 @@ for(int i = 0; i < array.length; i++) {
 }
 System.out.println(result);
 
-// functional approach
+// recursive approach, typically preferred in functional programming
+// Java has no Tail Call Optimization (TCO)
+// so, you won't see often code like that in Java production code
 int recursiveSum(int[] a, int i, int accumulator) {
 	if(i == a.length) {
 		return accumulator;
@@ -42,7 +44,7 @@ int sum(int[] a, int i, int acc) {
     return i == a.length ? acc : sum(a, i + 1, acc + a[i]);
 }
 
-// hide iternal details to the user
+// hide the internal details to the user
 int sum(int[] a) {
     return sum(a, 0, 0);
 }
