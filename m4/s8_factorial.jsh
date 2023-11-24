@@ -17,7 +17,7 @@ int fact(int n) {
 
 // tail recursive
 int factTail(int n) {
-    return n * fact(n-1);
+    return factTail(n, 1);
 }
 
 int factTail(int n, int accumulator) {
