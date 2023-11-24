@@ -10,8 +10,8 @@ a = [12, 3, -10, 0, 50, 15]
 
 max = a[0]
 
-for cur in a:
-    if cur > max:
-        max = cur
+for i in range(1, len(a)):
+    if a[i] > max:
+        max = a[i]
 
 print("The biggest value is:", max)
