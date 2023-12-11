@@ -2,3 +2,4 @@
 /.project
 /.spyproject/
 .ipynb_checkpoints/
+/.venv/
