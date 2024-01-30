@@ -18,4 +18,8 @@ print("Not true is", not True)
 
 # XOR
 exclusiveDisjunction = True ^ True
-print("True xor True is", exclusiveDisjunction)
+print("True xor True is", exclusiveDisjunction, "(^)")
+
+# XOR - in a more pythonic way
+exclusiveDisjunction = False != True
+print("False xor True is", exclusiveDisjunction, "(!=)")
