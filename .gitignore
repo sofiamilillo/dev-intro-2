@@ -3,3 +3,5 @@
 /.spyproject/
 .ipynb_checkpoints/
 /.venv/
+/target/
+/.classpath
