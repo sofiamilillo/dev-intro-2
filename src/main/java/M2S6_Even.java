@@ -3,17 +3,17 @@
  * 
  * https://github.com/egalli64/dev-intro
  *
- * From a flow chart to code: print only the even numbers in an array
+ * From flow chart to code: print only the even numbers in an array
  */
-
-// an array of integers
-int[] data = { 1, 42, 13, 3, 45, 2 };
 
 /**
  * This code almost doesn't look Java The idea is following the related
  * flowchart blindly. We'll see how to rewrite it in a more idiomatic way
  */
 void main() {
+    // an array of integers
+    int[] data = { 1, 42, 13, 3, 45, 2 };
+
     if (data.length == 0) {
         System.out.println("Done");
     } else {
