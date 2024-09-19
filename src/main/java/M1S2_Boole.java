@@ -24,7 +24,8 @@ void main() {
     System.out.println("a or b is " + inclusiveDisjunction);
 
     // NOT
-    System.out.println("not a is " + !a);
+    boolean negation = !a;
+    System.out.println("not a is " + negation);
 
     // XOR
     boolean exclusiveDisjunction = a ^ b;
