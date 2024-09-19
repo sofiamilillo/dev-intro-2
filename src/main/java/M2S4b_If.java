@@ -42,4 +42,5 @@ void main() {
     }
 
     // ...
+    System.out.println("Done!");
 }
