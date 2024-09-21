@@ -7,7 +7,7 @@
  */
 
 void main() {
-    for (int i = 0; i < 10; i++) {
-        System.out.println(i);
+    for (int value = 0; value < 10; value++) {
+        System.out.println(value);
     }
 }
