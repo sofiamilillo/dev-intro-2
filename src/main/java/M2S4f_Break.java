@@ -7,12 +7,12 @@
  */
 
 void main() {
-    int i = 0;
+    int value = 0;
 
     while (true) {
-        System.out.println(i);
-        i++;
-        if (i > 9) {
+        System.out.println(value);
+        value++;
+        if (value > 9) {
             break;
         }
     }
