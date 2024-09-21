@@ -7,13 +7,13 @@
  */
 
 void main() {
-    for (int i = 0; i < 10; i++) {
+    for (int value = 0; value < 10; value++) {
         System.out.print(' ');
-        if (i < 3 || i > 6) {
+        if (value < 3 || value > 6) {
             System.out.print('?');
             continue;
         }
-        System.out.print(i);
+        System.out.print(value);
     }
 
     System.out.println();
