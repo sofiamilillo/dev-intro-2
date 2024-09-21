@@ -17,6 +17,7 @@ void main() {
     if (data.length == 0) {
         System.out.println("Done");
     } else {
+        // "i" is the index of the current data element checked
         int i = 0;
 
         while (true) {
@@ -29,6 +30,7 @@ void main() {
             if (i == data.length - 1) {
                 break;
             }
+            // increase the index, to check the next element
             i = i + 1;
         }
         System.out.println("Done");
