@@ -7,10 +7,10 @@
  */
 
 void main() {
-    int i = 0;
+    int value = 0;
 
     do {
-        System.out.println(i);
-        i++;
-    } while (i < 10);
+        System.out.println(value);
+        value++;
+    } while (value < 10);
 }
