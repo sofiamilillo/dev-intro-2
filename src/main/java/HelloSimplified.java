@@ -5,7 +5,7 @@
  *
  * Hello Java by Unnamed class
  * 
- * Run it from CLI by: java --enable-preview --source 22 HelloSimplified.java
+ * Run it from CLI by: java --enable-preview HelloSimplified.java
  */
 
 void main() {
