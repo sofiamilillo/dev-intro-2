@@ -7,10 +7,15 @@
  */
 
 void main() {
-    int target = -42;
-    System.out.println("target is " + target);
+	int target = -42;
+	System.out.println("target is " + target);
 
-    // TODO: set positive to true if target is greater than zero
-    boolean positive = true;
-    System.out.println("target is positive: " + positive);
+	// set positive to true if target is greater than zero
+	boolean positive = target > 0;
+//	if (target > 0) {
+//		positive = true;
+//	} else {
+//		positive = false;
+//	}
+	System.out.println("target is positive: " + positive);
 }
